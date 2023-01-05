@@ -8,7 +8,9 @@
 </p>
 
 <p>
+
 [pymysql mysql connect]
+
 ```python  
 import pymysql
 pymysql.install_as_MySQLdb()
@@ -42,8 +44,10 @@ data.to_sql(name='data',con=conn,if_exists='append',dtype = {
 
 
 <p>
+
 [partion by example]
-```
+
+``` sql
 # 파티션별 내림차순 순번  
 SELECT ROW_NUMBER() OVER (PARTITION BY ~ ORDER BY ~ DESC) AS "NUM"
 ```
