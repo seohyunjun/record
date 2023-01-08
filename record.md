@@ -1,14 +1,6 @@
 ## Dummy Summary Sheet
 
-
-<p>
-[]
-```
-```
-</p>
-
-<p>
-
+<br>
 [pymysql mysql connect]
 
 ```python  
@@ -26,23 +18,10 @@ data.to_sql(name='data',con=conn,if_exists='append',dtype = {
     'DATE':sqlalchemy.types.CHAR(10),
     'EVENT':sqlalchemy.types.VARCHAR(5),
     'REG_DT':sqlalchemy.types.TIMESTAMP,
-    'DEVICE_ID':sqlalchemy.types.VARCHAR(50),
-    'IP_ADDR':sqlalchemy.types.VARCHAR(100),
-    'DOMAIN':sqlalchemy.types.VARCHAR(50),
-    'PAGE_URL':sqlalchemy.types.VARCHAR(200),
-    'REFERRER':sqlalchemy.types.VARCHAR(2000),
-    'OS':sqlalchemy.types.VARCHAR(100),
-    'OS_VER':sqlalchemy.types.VARCHAR(30),
-    'BROWSER':sqlalchemy.types.VARCHAR(100),
-    'BROWSER_VER':sqlalchemy.types.VARCHAR(30),
-    'DEV':sqlalchemy.types.VARCHAR(100),
-    'DEV_BRND':sqlalchemy.types.VARCHAR(100),
-    'USER_AGENT':sqlalchemy.types.TEXT,
                 },index=False)
 ```
 </p>
-
-
+<br>
 <p>
 
 [partion by example]
@@ -51,5 +30,75 @@ data.to_sql(name='data',con=conn,if_exists='append',dtype = {
 # 파티션별 내림차순 순번  
 SELECT ROW_NUMBER() OVER (PARTITION BY ~ ORDER BY ~ DESC) AS "NUM"
 ```
-</p>
 
+</p>
+<br>
+[Simpson Faces GAN]
+<br>
+[data(segmentation label, Mask image)]("https://www.kaggle.com/code/amirmohammadrostami/starter-simpsons-faces-e3007ec4-a")
+<p>
+[DB에 URL 저장시 Tip]
+</p>
+<br>
+<p>
+
+```sql
+VARCHAR(512) CHARACTER SET 'ascii' COLLATE 'ascii_general_ci' NOT NULL
+# Twitter URL 단축기 사용
+``` 
+</p>
+<br>
+<p>
+[DATE FORMAT STR->DATE 날짜 변환 후 비교]
+
+```sql
+STR_TO_DATE(CONCAT('20220425','000000'), '%Y%m%d%H%i%s')
+```
+</p>
+<br>
+<p>
+[DATE FORMAT STR->DATE 날짜 변환 후 비교]
+
+```sql
+STR_TO_DATE(CONCAT('20220425','000000'), '%Y%m%d%H%i%s')
+```
+</p>
+<br>
+<p>
+[GROUP BY 별로 STR SUM, SEPARATOR:구분자]
+
+```sql
+CONCAT('\'', GROUP_CONCAT(DISTINCT VALUE SEPARATOR '\',\''), '\'') AS VALUE2
+```
+</p>
+<br>
+<p>
+[Calculate lantitude, longtitude]
+
+- 지구의 반지름을 6,400 km 로 가정
+- 경도 1도의 거리 (km단위) = cos( 위도 ) * 6400 * 2 * 3.14 / 360
+- 위도 1도의 거리는 아래와 같이 계산할 수 있고 대략 111 km
+- 위도 1도의 거리 (km단위) = 6400 * 2 * 3.14 / 360
+
+```python
+X = ( cos( lat_1 ) * 6400 * 2 * 3.14 / 360 ) * | lat_1 - lng_2 |
+Y = 111 * | lat_1 - lng_2 |
+D = √ ( X² + Y² )
+```
+</p>
+<br>
+=============================NLL====================================
+
+=============================FT====================================
+<p>
+[intel pandas, sikit-learn 최적화 tool]
+
+[intel OPEN API](https://www.intel.com/content/www/us/en/developer/tools/oneapi/ai-analytics-toolkit-download.html?operatingsystem=linux&distributions=docker)
+</p>
+<br>
+<p>
+[]
+
+```sql
+```
+</p>
