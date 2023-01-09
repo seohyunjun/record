@@ -1,4 +1,4 @@
 # record
 
-None Format Memo
+Free Type
 <br>
