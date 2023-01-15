@@ -523,14 +523,41 @@ deploy:
 </p>
 <br>
 <p>
-[]
+[pytorch LOGGER]
+
+- [csv logger](https://pytorch-lightning.readthedocs.io/en/stable/extensions/generated/pytorch_lightning.loggers.CSVLogger.html)
+- [pytorch tensorboard](https://pytorch.org/docs/stable/tensorboard.html)
 </p>
-<br>
 <br>
 <p>
-[]
+[모두의 연구소 풀잎 스쿨]
+
+[모두의 연구소 풀잎 스쿨](https://modulabs.co.kr/blog/)
 </p>
 <br>
+
+<p>
+[Mac Blender Terminal Window]
+
+1. Blender Script 
+``` python 
+>> bpy.app.binary_path
+'/Applications/Blender.app/Contents/MacOS/Blender'
+```
+
+2. alias 파일 이동
+
+- Blender 파일 '가상본 만들기'
+- Desktop으로 이동
+
+1 - cd /Applications/blender.app/Contents/MacOS
+2 - ./blender
+3 - Icon 변경
+</p>
+<br>
+
 __FSS__
 ***
+***
+__FSS__
 
