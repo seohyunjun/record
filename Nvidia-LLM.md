@@ -27,7 +27,7 @@
 - GENERATIVE AI (X->Y)
 - LARGE LANGUAGE MODEL(LLM) WITH TRANSFORMER
 - LLM 모델이 왜 학습이 어려운지?
-    - Data Paaralleism
+    - Data Paralleism
         - training speed
         - different data
         - all workers have the same copy of the model
