@@ -550,9 +550,17 @@ deploy:
 - Blender 파일 '가상본 만들기'
 - Desktop으로 이동
 
-1 - cd /Applications/blender.app/Contents/MacOS
-2 - ./blender
-3 - Icon 변경
+3. cd /Applications/blender.app/Contents/MacOS
+4. ./blender
+5. icon 변경
+</p>
+<br>
+<p>
+[sublime text json 자동 정렬]
+
+- cmd + shift + P / Package Control: Install Packages / jsFormat 설치
+- View > Syntax > JavaScript
+- control + option + F
 </p>
 <br>
 
