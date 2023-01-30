@@ -563,6 +563,30 @@ deploy:
 - control + option + F
 </p>
 <br>
+<p>
+[python module wave format error]
+
+- cmd + shift + P / Package Control: Install Packages / jsFormat 설치
+- View > Syntax > JavaScript
+- control + option + F
+</p>
+<br>
+[wav file convert HZ]
+
+- -b
+  − BITS, −−bits : The number of bits (a.k.a. bit-depth or sometimes word-length) in each encoded sample. Not applicable to complex encodings such as MP3 or GSM. Not necessary with encodings that have a fixed number of bits, e.g. A/μ-law, ADPCM.
+  
+- -r
+  - −−rate RATE[k] : Gives the sample rate in Hz (or kHz if appended with ‘k’) of the file.
+- −c
+  - −−channels CHANNELS : 
+The number of audio channels in the audio file. This can be any number greater than zero.
+```
+sox input.wav -b 16 -c 1 -r 8000 output.wav
+```
+</p>
+# 파일 변환시 길이 변경
+<br>
 
 __FSS__
 ***
