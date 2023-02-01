@@ -587,6 +587,13 @@ sox input.wav -b 16 -c 1 -r 8000 output.wav
 </p>
 # 파일 변환시 길이 변경
 <br>
+<p>
+[Text-To-Audio Generation with prompt-Enhanced Diffusion Models]
+
+- https://text-to-audio.github.io/
+- [paper](https://text-to-audio.github.io/paper.pdf)
+
+</p>
 
 __FSS__
 ***
