@@ -592,7 +592,15 @@ sox input.wav -b 16 -c 1 -r 8000 output.wav
 
 - https://text-to-audio.github.io/
 - [paper](https://text-to-audio.github.io/paper.pdf)
+</p>
 
+<br>
+<p>
+[streamlit port config]
+
+```shell
+streamlit run file.py --server.port 8888
+```
 </p>
 
 __FSS__
