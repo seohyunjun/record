@@ -618,6 +618,25 @@ sudo unzip -d /usr/share/fonts/nanum nanumfont.zip
 sudo fc-cache -f -v
 ```
 </p>
+<p>
+[linux(ubuntu) font cache 제거]
+1. 폰트 경로 이동
+```
+cd /usr/share/fonts/ # 폰트 위치
+```
+
+2. cache 제거
+```
+fc-cache -f -v
+```
+
+3. *** matplotlib cache 제거 
+```
+cd ~/.cache/matplotlib
+
+rm -rf fontlist-v330.json
+```
+</p>
 
 __FSS__
 ***
