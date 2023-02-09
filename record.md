@@ -602,6 +602,22 @@ sox input.wav -b 16 -c 1 -r 8000 output.wav
 streamlit run file.py --server.port 8888
 ```
 </p>
+<br>
+<p>
+[linux(ubuntu) font config]
+
+1. sudo apt install fontconfig
+
+2. font install 나눔(nanun)
+```
+curl -o nanumfont.zip http://cdn.naver.com/naver/NanumFont/fontfiles/NanumFont_TTF_ALL.zip 
+sudo unzip -d /usr/share/fonts/nanum nanumfont.zip
+```
+3. 폰트 갱신
+```
+sudo fc-cache -f -v
+```
+</p>
 
 __FSS__
 ***
