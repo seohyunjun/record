@@ -638,6 +638,12 @@ rm -rf fontlist-v330.json
 ```
 </p>
 
+<p>
+[train cost/time, when using torch]
+
+[dawn.cs.stanford.edu](https://dawn.cs.stanford.edu/benchmark/index.html#imagenet-inference-cost)
+
+</p>
 __FSS__
 ***
 ***
