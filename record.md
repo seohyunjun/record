@@ -642,7 +642,16 @@ rm -rf fontlist-v330.json
 [train cost/time, when using torch]
 
 [dawn.cs.stanford.edu](https://dawn.cs.stanford.edu/benchmark/index.html#imagenet-inference-cost)
+</p>
 
+
+<p>
+[torchvision git]
+
+1. torchvision - hubconf.py define function load
+  ex)resnet101, key - pretrained 
+
+2. [torch vision](https://github.com/pytorch/vision)
 </p>
 __FSS__
 ***
