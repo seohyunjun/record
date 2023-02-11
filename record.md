@@ -651,6 +651,11 @@ rm -rf fontlist-v330.json
 1. torchvision - hubconf.py define function load
   ex)resnet101, key - pretrained 
 
+``` python
+import torch
+from torch import hub
+resnet101 = hub.load('pytorch/vision:master', 'resnet101', pretrained=True)
+``` 
 2. [torch vision](https://github.com/pytorch/vision)
 </p>
 __FSS__
