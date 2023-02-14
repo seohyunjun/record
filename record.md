@@ -658,6 +658,13 @@ resnet101 = hub.load('pytorch/vision:master', 'resnet101', pretrained=True)
 ``` 
 2. [torch vision](https://github.com/pytorch/vision)
 </p>
+
+<p>
+[gitlab-runner checklist]
+
+[check list](https://stackoverflow.com/questions/53370840/this-job-is-stuck-because-the-project-doesnt-have-any-runners-online-assigned)
+
+</p>
 __FSS__
 ***
 ***
