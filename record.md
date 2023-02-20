@@ -673,6 +673,24 @@ shortcut: Ctrl + Opt + f
 
 [refer](https://stackoverflow.com/questions/34896840/sublime-text-json-formatter-shortcut)
 </p>
+ 
+ 
+<p>
+[torch model display graphviz, torchviz]
+
+```shell
+pip install graphviz
+pip install torchviz
+```
+ 
+```python
+from torchviz import make_dot
+from graphviz import Source
+
+model_dot = make_dot(model(inputs, input_lengths), params=dict(list(model.named_parameters()), show_attrs=True, show_saved=True)
+Source(model_dot).rendor("png_name",format='png')
+```
+</p>
 __FSS__
 ***
 ***
