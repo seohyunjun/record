@@ -665,6 +665,14 @@ resnet101 = hub.load('pytorch/vision:master', 'resnet101', pretrained=True)
 [check list](https://stackoverflow.com/questions/53370840/this-job-is-stuck-because-the-project-doesnt-have-any-runners-online-assigned)
 
 </p>
+ 
+<p>
+[sublime text jsFormat shortcut mac]
+ 
+shortcut: Ctrl + Opt + f
+
+[refer](https://stackoverflow.com/questions/34896840/sublime-text-json-formatter-shortcut)
+</p>
 __FSS__
 ***
 ***
