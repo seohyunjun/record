@@ -691,6 +691,37 @@ model_dot = make_dot(model(inputs, input_lengths), params=dict(list(model.named_
 Source(model_dot).rendor("png_name",format='png')
 ```
 </p>
+
+[skorch-dev/skorch sklearn + torch]  
+https://github.com/skorch-dev/skorch
+
+</p>
+
+[whisper model] 
+
+https://huggingface.co/seastar105/whisper-small-ko-zeroth/blob/main/pytorch_model.bin
+</p>
+
+[mac 환경 machine learning api Coretools]
+
+https://github.com/apple/coremltools
+</p>
+
+
+[gdm stop xorg]  
+[How to: Stop X.Org Server](https://www.cyberciti.biz/faq/how-to-stop-xorg-server/)
+
+- gdm - xorg stop service
+```shell
+ /etc/init.d/gdm3 stop
+```
+- gdm - xorg stop service
+```shell
+ /etc/init.d/gdm3 start
+```
+
+</p>
+
 __FSS__
 ***
 ***
