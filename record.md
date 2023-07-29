@@ -721,7 +721,8 @@ https://github.com/apple/coremltools
 ```
 
 </p>
-[m1 mac phpmyadmin]  
+[m1 mac phpmyadmin] 
+
 [Install phpmyadmin](https://story-moon.tistory.com/37)
 
 ```shell
