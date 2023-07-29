@@ -722,7 +722,7 @@ https://github.com/apple/coremltools
 
 </p>
 [m1 mac phpmyadmin]  
-[Install phpmyadmin]([https://www.cyberciti.biz/faq/how-to-stop-xorg-server/](https://story-moon.tistory.com/37))
+[Install phpmyadmin](https://story-moon.tistory.com/37)
 
 ```shell
 brew services start httpd # 패키지 실행
